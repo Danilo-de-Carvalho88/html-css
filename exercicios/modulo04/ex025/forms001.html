@@ -12,7 +12,12 @@
     <!-- O atributo action vai fazer a conexão com o botão submit para indicar o local que os dados serão enviados -->
 
     <!-- O label é utilizado para fazer a conexão do campo com a caixa que receberá os dados. -->
-    <form action="casdastro.php">
+
+    <!-- GET => Neste metodo é possivel ver os dados enviados pelo formulário direto pela URL. É utilizado quando os dados envolvidos no não são senciveis. OBS: Suporta até 3.000 Bytes (3.000 letras)-->
+
+    <!-- POST => Neste metodo os dados enviados pelo formulário não ficam visiveis na URL. É indicado sua utilização quando envolve dados senciveis. OBS: Também utilizavel para envio de arquivos-->
+
+    <form action="cadastro.php" method="POST" autocomplete="off">
         <p><label for="inome">Nome:</label> 
             <input type="text" name="nome" id="inome"></p>
         <p><label for="isobrenome">Sobrenome:</label> 
