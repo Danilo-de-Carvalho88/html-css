@@ -21,7 +21,7 @@ header h1 {
     text-align: center;
 }
 
-
+/* Configurações do ícone hamburguer */
 i#burguer {
     background-color: rgb(48, 48, 48);
     color: white;
@@ -36,6 +36,7 @@ i#burguer:hover {
     color: black;
 }
 
+/* Configurações do menu */
 menu {
     display: none;
 }
